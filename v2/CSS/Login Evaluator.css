@@ -14,6 +14,7 @@ body {
 			background-color: white;
 			position: relative;
 			left: 300px;
+			background-position: center;
 }
 		h1 {
 			position: relative;
@@ -26,9 +27,10 @@ body {
 	    width: 400px;
 		height: 600px;
 		position: absolute;
-		right: 830px;
+		right: 835px;
 		bottom: 185px;
 		opacity: 0.40;
+		
 }
 		.Social1 {
 		width: 315px;
