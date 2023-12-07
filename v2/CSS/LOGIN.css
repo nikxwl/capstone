@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #0F2C59;
+	margin: 0;
+}
+
+.Login{
+			padding: 200px;
+			margin-top: 50px;
+			width: 500px;
+			height: 200px;
+			background-color: white;
+			position: relative;
+			left: 300px;
+		}
+	
+		h1 {
+			position: absolute;
+			top: 100px;
+			left: 590px;
+			font-family: "Times New Roman";
+		}
+		
+	.SocialBG {
+	    width: 400px;
+		height: 600px;
+		position: absolute;
+		right: 835px;
+		bottom: 185px;
+		opacity: 0.40;
+}
+		.Social1 {
+		width: 315px;
+		height: 345px;
+		position: absolute;
+		bottom: 320px;
+		left: 345px;
+}
+		.AdminButton {
+			width: 250px;
+			height: 35px;
+			border-radius: 5px;
+			margin-top: 10px;
+			font-family: "Times New Roman";
+			font-size: 20px;
+			position: absolute;
+			top: 260px;
+			left: 830px;
+			
+		}
+
+		.EvalButton {
+			width: 250px;
+			height: 35px;
+			border-radius: 5px;
+			margin-top: 10px;
+			font-family: "Times New Roman";
+			font-size: 20px;
+			position: absolute;
+			top: 350px;
+			left: 830px;
+		}
+		
+		.StudentButton {
+			width: 250px;
+			height: 35px;
+			border-radius: 5px;
+			margin-top: 10px;
+			font-family: "Times New Roman";
+			font-size: 20px;
+			position: absolute;
+			bottom: 350px;
+			left: 830px;
+		}

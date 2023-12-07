@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin</title>
+</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="CSS/Admin.css">
+	
+<body>
+	
+	<div class="Header1">
+		<img src="Pictures/uphsl logo.png" align = "left" height="150">
+		<img src="Pictures/ccs_logo.png" align = "right" height="150">
+		<h2> University of Perpetual Help System - JONELTA </h2>
+		<h3><b> Student Assessment Plan </b></h3>
+	</div>
+	
+	<div class="Header2"> </div>
+	
+	<div class="TopNav"> 
+		<a class="primary" href="Main Page.html">Home</a>
+		<a class="primary1" href="Main Page.html">Log out</a>
+     </div>
+	<br>
+	<div class="Content1"> 
+	
+	<div class="Content2"> 
+				<p class="Admin"><b> Admin </b></p>
+		<img class="Icon" src="Pictures/Icon.png" align = "right">
+		
+		<div class="Sidenav"> 
+		<button type="button" class="collapsible"><b>Set As</b></button>
+		<div class="content">
+  		<p>Administrator</p>
+		<p>Evaluator</p>
+		<p>Student</p>	</div>
+		<a class="User" href="">User</a> <br>
+		<a class="Result" href="">Result</a> <br>
+		<a class="Survey" href="">Survey</a> <br>
+		<a class="Curriculum" href="">Curriculum</a> <br>
+		
+     </div>
+	</div>
+	</div>
+	
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+  				coll[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+				var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}</script>
+	<footer>
+  		<p><b>University of Perpetual Help System LAGUNA</b></p>
+  		<p>Biñan | GMA | Pangasinan | Manila | Isabela | Roxas City | UPH-DJGTMU</p>
+		<p>Privacy Policy</p>
+		<p>Copyright 2023</p>
+	</footer>
+	
+</body>
+</html>

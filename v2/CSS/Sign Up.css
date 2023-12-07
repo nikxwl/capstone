@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+		.SignUp{
+			padding: 200px;
+			margin-top: 50px;
+			width:500px;
+			height: 200px;
+			background-color: white;
+			position: relative;
+			left: 300px;
+		}
+	
+		h1 {
+			position: relative;
+			bottom: 150px;
+			left: 400px;
+			font-family: "Times New Roman";
+		}
+		
+		.SocialBG {
+	    width: 430px;
+		height: 600px;
+		position: relative;
+		right: 198px;
+		bottom: 280px;
+		opacity: 0.30;
+}
+		.Social1 {
+		width: 305px;
+		height: 345px;
+		position: relative;
+		bottom: 750px;
+		right: 190px;
+}
+
+		p {
+			position: relative;
+			bottom: 750px;
+			right: 45px;
+			font-size: 30px;
+			font-family: "Times New Roman";
+		}
+
+		.continue {
+		border-radius: 10px;
+		position: relative;
+		bottom: 700px;
+		right: 150px;
+		width: 350px;
+		height: 50px;
+		font-size: 18px;
+		font-family: "Times New Roman";
+		border: none;
+}
+
+		.GoogleIcon{
+		width: 35px;
+		height: 35px;
+		position: relative;
+		bottom: 688px;
+		right: 480px;
+}
+
+		.CreateButton {
+			width: 210px;
+			height: 40px;
+			border-radius: 5px;
+			margin-top: 10px;
+			font-family: "Times New Roman";
+			font-size: 20px;
+			position: relative;
+			bottom: 400px;
+			left: 850px;
+		}
+
+		input[type=text], input[type=password] {
+ 		 width: 430px;;
+ 		 padding: 12px 20px;
+  		 margin: 8px 0;
+  		 display: inline-block;
+ 		 border: 1px solid #ccc;
+		 box-sizing: border-box;
+		 position: relative;
+		 bottom: 500px;
+		 left: 332px; 
+		 margin: 15px 0 15px 0;
+}
+
+		.Fullname {
+		position: relative;
+		top: 50px;
+		left: 420px;	
+}
+
+		.Username {
+		position: relative;
+		top: 55px;
+		left: 420px;	
+}
+
+		.Password {
+		position: relative;
+		top: 55px;
+		left: 420px;	
+}
+
+		.CPassword {
+		position: relative;
+		top: 55px;
+		left: 420px;	
+}

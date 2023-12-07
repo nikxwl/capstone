@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login Student</title>
+</head>
+<link rel="stylesheet" href="CSS/Login Student.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+	
+	
+<div class="Login">
+	<h1> Login as Student</h1> </div>
+	<img class="SocialBG" src="Pictures/SocialBG.jpg">
+	 <img class="Social1 " src="Pictures/Social1.png">
+	
+<div class="Username"> <input type="text" placeholder="Enter Username" id="uname" required> </div> 
+<div class="Password"> <input type="password" placeholder="Enter Password" id="psw" required>
+	<span class="eye" onclick="myFunction()">
+	<i id="hide1" class="fa fa-eye"></i>
+	<i id="hide2" class="fa fa-eye-slash"></i>
+	</span>
+		</div> 
+<a href="Student.html">
+		  <button class="LogInButton" onclick="togglePopup()"><b> Login </b></button>
+		    </a>
+	<script> 
+	function myFunction() {
+		var x = document.getElementById("psw");
+		var y = document.getElementById("hide1");
+		var z = document.getElementById("hide2");
+		
+		if (x.type === 'password') {
+		x.type = "text";
+		y.style.display = "block";
+		z.style.display = "none";
+		}
+		
+		else {
+		x.type = 'password';
+		y.style.display = "none";
+		z.style.display = "block";
+		}
+	}
+	
+	</script>
+</body>
+</html>

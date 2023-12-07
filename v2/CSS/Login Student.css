@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #0F2C59;
+	margin: 0;
+}
+
+.Login{
+			padding: 200px;
+			margin-top: 50px;
+			width: 500px;
+			height: 200px;
+			background-color: white;
+			position: relative;
+			left: 300px;
+}
+		h1 {
+			position: relative;
+			bottom: 80px;
+			left: 310px;
+			font-family: "Times New Roman";
+		}
+		
+	.SocialBG {
+	    width: 400px;
+		height: 600px;
+		position: absolute;
+		right: 830px;
+		bottom: 185px;
+		opacity: 0.40;
+}
+		.Social1 {
+		width: 315px;
+		height: 345px;
+		position: absolute;
+		bottom: 320px;
+		left: 345px;
+}
+
+p {
+			position: relative;
+			bottom: 1150px;
+			right: 160px;
+			font-size: 35px;
+			font-family: "Times New Roman";
+		}
+
+		.LogInButton {
+			width: 210px;
+			height: 40px;
+			border-radius: 5px;
+			margin-top: 10px;
+			font-family: "Times New Roman";
+			font-size: 20px;
+			position: absolute;
+			bottom: 280px;
+			left: 850px;
+		}
+input[type=text], input[type=password] {
+ 		 width: 430px;
+		 height: 40px;
+  		 display: inline-block;
+ 		 border: 1px solid #ccc;
+		 box-sizing: border-box;
+		 margin: 10px;
+}
+
+		.Username {
+		position: absolute;
+		top: 280px;
+		right: 355px;	
+}
+
+		.Password {
+		position: absolute;
+		top: 350px;
+		right: 355px;	
+}
+
+.eye {
+	position: absolute;
+	top: 20px;
+	left: 400px;
+}
+
+#hide1 {
+	display: none;
+}

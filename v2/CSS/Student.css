@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+	img{
+			width: 8%;
+			padding-bottom: 10px;
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+		
+		div.Header1 {
+		text-align: center;
+		margin-right: 200px;
+		margin-top: 10px;
+  		length: 500px;
+  		width: 1500px;
+   		float:center; 
+  		padding: 10px;
+		color: #ffffff;
+        font-size:20px;
+		background-color: #0F2C59;
+        box-shadow:0 10px 35px 0 rgba(0, 0, 0,15.20);
+		
+			
+}
+		
+		div.Header2 { 
+		margin-right: 400px;
+  		length: 500px;
+  		width: 1480px; 
+  		padding: 20px;	
+		padding-top: 10px;
+		background-color: #F8F0E5;
+		
+			
+}
+		
+		div.TopNav{
+		overflow: hidden;
+  		background-color: #0F2C59;
+		width: 1520px;
+					
+}
+
+		div.TopNav a {
+  		float: left;
+  		color: #f2f2f2;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 17px;
+}
+
+ 		div.TopNav a:hover {
+  		background-color: #5379F6;
+  		color: black;
+			
+}
+		div.TopNav a.primary {
+  		background-color: #F8F0E5;
+		color: black;
+		font-family: "Times New Roman", Times, serif; 
+		font-weight: bold;
+		font-size: 20px; 
+}
+		
+		div.TopNav a.primary1 {
+		color: white;
+		font-family: "Times New Roman", Times, serif; 
+		font-weight: bold;
+		font-size: 20px; 
+		float: right;
+		margin-right: 50px;
+}
+		
+		.Student{
+			font-size:30px;
+			font-family: "Times New Roman";
+			text-align: right;
+			margin-bottom: 50px;
+			margin-top: 1px;
+			margin-right: 30px;
+}
+		
+		.Icon {
+			width: 50px;
+			length: 50px;
+			position: relative;
+			right: 115px;
+			bottom: 92px;
+			
+		}
+		
+		div.Content1 {
+  		padding: 80px;
+		background-color: #D7C1A0;
+		width: 1360px;
+	
+		}
+		
+		.button1 {
+  		background-color: white; 
+  		color: black; 
+		width: 250px;
+		height: 50px;
+		position:relative;
+		bottom: 82px;
+		right:20px;
+		font-size: 25px;
+		font-family:Impact;
+		border-radius: 4px;
+		border: none;
+		
+}
+
+		.button1:hover {
+  		background-color: #5379F6;
+ 		color: white;
+		
+}
+		
+		
+		.button2 {
+  		background-color: white; 
+  		color: black; 
+		width: 250px;
+		height: 50px;
+		position:relative;
+		bottom: 82px;
+		right: 15px;
+		font-size: 25px;
+		font-family:Impact;
+		border-radius: 4px;
+		border: none;
+		
+}
+
+		.button2:hover {
+  		background-color: #5379F6;
+ 		color: white;
+		
+}
+		
+		.button3{ 
+		width: 100px;
+		height: 30px;
+		position:relative;
+		bottom: 60px;
+		left: 1300px;
+		font-size: 18px;
+		font-family: "Times New Roman";
+		
+}
+		
+		div.Content2 {
+		text-align: center;
+		margin-right: 200px;
+		margin-bottom: 10px;
+  		length: 500px;
+  		width: 940px;
+   		float:center; 
+  		padding: 210px;
+		padding-top: 160px;
+		color: #000000;
+        font-size: 60px;
+		background-color: #F2E6D4;
+        box-shadow:0 10px 35px 0 rgba(0, 0, 0,15.20);	
+		}
+	
+		
+		.message {
+			margin-top: 50px;
+			font-family: Georgia;
+			font-size: 25px;
+		}
+		
+		.HomeButton {
+			width: 130px;
+			height: 30px;
+			border-radius: 5px;
+			margin-top: 10px;
+			font-family: "Times New Roman";
+			font-size: 20px;
+		}
+		
+		.popup .overlay {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width: 100vw;
+			height: 100vh;
+			background: rgba(0,0,0,0.7);
+			z-index: 1;
+			display: none;
+		}
+		
+		.popup .content {
+			position: absolute;
+			top:100%;
+			left: 50%;
+			transform: translate(-50%, -50%) scale(0);
+			background: #fff;
+			width: 450px;
+			height: 220px;
+			z-index: 2;
+			text-align: center;
+			padding: 20px;
+			box-sizing: border-box;
+			background-color: #F8F0E5;
+		}
+		
+		.popup .closebtn{
+			position: absolute;
+			right: 20px;
+			top: 20px;
+			width: 30px;
+			height: 30px;
+			background: #222;
+			color: #fff;
+			font-size: 25px;
+			font-weight: 600;
+			line-height: 30px;
+			text-align: center;
+			border-radius: 50%;
+		}
+		
+		.popup.active .overlay{
+			display: block;
+		}
+		
+		.popup.active .content{
+			transition: all 300ms ease-in-out;
+			transform: translate(-50%, -50%) scale(1);
+		}
+		
+		footer{
+		text-align: center;
+		margin-right: 200px;
+  		height: 150px;
+  		width: 1520px;
+   		float:center; 
+  		padding: 0px;
+		padding-top: 10px;
+		color: #ffffff;
+        font-size: 15px;
+		background-color: #0F2C59;
+        box-shadow:0 10px 35px 0 rgba(0, 0, 0,15.20);
+		
+}

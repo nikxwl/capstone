@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<html>
+    <head> 
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="CSS/Main Page.css">
+	 	<title> UPHSL Student Assessment Plan </title>	
+    </head>
+	
+    <body> 
+
+        <div class="banner"> 
+            <div class="navbar">
+                <img src="Pictures/uphsl logo.png" class="logo">
+            </div>
+       
+   
+        <div class="container text-center">
+            
+            <div class="col-12 text-light">	
+                    <h1> UPHSL Student Assessment Plan </h1>
+            </div>
+            
+            <div class="row align-items-start text-light">
+                    <h4> assessing graduate students using a graduate tracer</h4>
+                    
+            </div>
+
+        </div>
+       
+        <div class="container text-center">
+  <div class="row row-cols-auto ">
+    <div class="col-6">
+      <a href="SignUp.php">
+          <button type="button" class="button" style="font-size: 18px"><b> Sign up </b> </button> </a>
+      </div>
+    <div class="col-6">
+      <a href="LOGIN.html">
+		  <button type="button" class="button" style="font-size: 18px"><b> Log in </b> </button> </a>
+      </div>
+  </div>
+</div>
+
+        </div>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+</html>
+	</html>
