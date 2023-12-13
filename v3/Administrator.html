@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/Administrator.css">  
+    <title>Administrator</title>
+</head>
+<body style="background-color: #d7c1a0">
+    <div class="w3-container">
+        <table cellpadding="20" width="100%" height="140px" bgcolor="#0F2C59">
+	       <tbody>
+               <tr class="container p-2">
+                   <td class="align-items-center">
+                    <a href="Main.php">
+                    <img src="Pictures/uphsl%20logo.png" class="logo1"></a>
+                    <img src="Pictures/ccs_logo.png" class="logo2">
+                    <h2 class="text-center text-white pt-2">University of Perpetual Help System - LAGUNA</h2>
+                    <h3 class="text-center text-white pt-4">Student Assessment Plan</h3>
+                   </td></tr></tbody></table>
+        <table width="100%" height="20px" bgcolor="#F8F0E5"></table>
+    </div>
+
+    <div class="btn-group float-end mt-2 me-2">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/></svg>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+            <li><button class="dropdown-item" type="button">Logout</button></li>
+        </ul>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 mt-4 mb-4 bg-white">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <hr><li>
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Set As</span></a>
+                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-3"> <span class="d-none d-sm-inline">Administrator</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-3"> <span class="d-none d-sm-inline">Evaluator</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-3"> <span class="d-none d-sm-inline">Student</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#submenu2" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">User</span></a>
+                    </li>
+                    <li>
+                        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Result</span></a>
+                    </li>
+                    <li>
+                        <a href="#submenu4" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Survey</span> </a>
+                    </li>
+                    <li>
+                        <a href="#submenu5" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Curriculum</span> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col py-3 mt-4 mb-4">
+            Content area...
+        </div>
+    </div>
+</div>
+    
+    
+    
+<footer style="color: white; background-color:#0F2C59" class="text-lg-start">
+<table width="100%" height="25px" bgcolor="#F8F0E5"></table>
+    <div class="container mb-0 mt-2 p-2 text-center">
+        <p>University of Perpetual Help System Laguna</p>
+        <p>Copyright 2023</p>
+    </div>
+</footer>
+      
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
